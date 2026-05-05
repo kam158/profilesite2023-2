@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+  font-size: 62.5%; /*16px×62.5%=10px*/
+  color: #383330;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #FFFCF7;
+  font-family: fot-tsukuardgothic-std, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+h1,h2{
+  font-weight: 400;
+}
+
+li{
+  list-style: none;
+}
+.fadein {
+  opacity : 0;
+  transform : translate(0, 100px);
+  transition : all 1s;
+}
+ 
+.fadein.fadein_active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+.fadein_left {
+  opacity : 0;
+  transform : translate(-100px, 0px);
+  transition : all 1s;
+}
+ 
+.fadein_left.fadein_left_active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+.fadein_right{
+  opacity : 0;
+  transform : translate(10px, 0px);
+  transition : all 1s;
+}
+ 
+.fadein_right.fadein_right_active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+a{
+  text-decoration: none;
+  color: #383330;
+  transition: all 0.5s;
+}
+a:hover{
+  color: #BFAEA4;
+  transform: translate(5px,5px);
+}
+
+@media(min-width:1000px){
+  main,.about,.works,.about_me,footer{
+    padding: 0 240px 0 240px;
+  }
+}
+
+@media(max-width:999px){
+  footer{
+     padding: 120px 40px 0 40px;
+  }
+  main{
+    padding: 11px 50px 0 35px;
+  }
+  .about,.works,.about_me{
+    padding: 0 40px;
+  }
+}

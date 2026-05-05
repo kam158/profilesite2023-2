@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.042" height="215.521" viewBox="0 0 47.042 215.521">
+  <g id="topbtn" transform="translate(-1073.479 -6716.979)">
+    <g id="グループ_2" data-name="グループ 2" transform="translate(0.188)">
+      <line id="線_2" data-name="線 2" x2="20" y2="24" transform="translate(1096.813 6744.5)" fill="none" stroke="#93b6ba" stroke-linecap="round" stroke-width="5"/>
+      <line id="線_3" data-name="線 3" x1="20" y2="24" transform="translate(1076.813 6744.5)" fill="none" stroke="#93b6ba" stroke-linecap="round" stroke-width="5"/>
+    </g>
+    <g id="グループ_3" data-name="グループ 3" transform="translate(0.188)">
+      <line id="線_5" data-name="線 5" x2="20" y2="24" transform="translate(1096.813 6720.5)" fill="none" stroke="#bcdee2" stroke-linecap="round" stroke-width="5"/>
+      <line id="線_4" data-name="線 4" x1="20" y2="24" transform="translate(1076.813 6720.5)" fill="none" stroke="#bcdee2" stroke-linecap="round" stroke-width="5"/>
+    </g>
+    <text id="page_top_" data-name="page top " transform="translate(1087 6781.5) rotate(90)" fill="#6d8689" font-size="35" font-family="KozGoPr6N-Regular, Kozuka Gothic Pr6N"><tspan x="0" y="0">page top</tspan><tspan y="0" fill="#707070" font-family="KinutaMaruMaruGCLrStdN-R, Kinuta MaruMaruGothic CLr StdN"> </tspan></text>
+  </g>
+</svg>

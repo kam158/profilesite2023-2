@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /*16px×62.5%=10px*/
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fffdf5;
+}
+.relative{
+  position: relative;
+}
+
+.font_v7{
+  font-family: vdl-v7marugothic, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #333;
+}
+.font_kinuta{
+  font-family: maru-maru-gothic-clr-stdn, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333;
+}
+.font_zenmaru{
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: lighter;
+  color: #333;
+}
+.font_kozuka{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+a:hover {
+  opacity: 0.5;
+}
+
+.fadein {
+  opacity : 0;
+  transform : translate(0, 10px);
+  transition : all 0.5s;
+}
+ 
+.fadein.fadein_active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+.fadein_left {
+  opacity : 0;
+  transform : translate(-20px, 0px);
+  transition : all 0.5s;
+}
+ 
+.fadein_left.fadein_left_active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+.fadein_right{
+  opacity : 0;
+  transform : translate(20px, 0px);
+  transition : all 0.5s;
+}
+ 
+.fadein_right.fadein_right_active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
+
+/*mainvisual*/
+.fadein_main{
+  animation-name:fadeinmain;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+.fadein_main_2{
+  animation-name:fadeinmain;
+  animation-duration:0.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+.fadein_main_3{
+  animation-name:fadeinmain;
+  animation-duration:2s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+.fadein_main_4{
+  animation-name:fadeinmain;
+  animation-duration:1.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+.fadein_main_trigger{
+  opacity: 0;
+}
+.fadein_main_trigger_2{
+  opacity: 0;
+}
+.fadein_main_trigger_3{
+  opacity: 0;
+}
+.fadein_main_trigger_4{
+  opacity: 0;
+}
+@keyframes fadeinmain{
+  from {
+   transform: translate(0,5px);
+  opacity: 0;
+  }
+
+  to {
+   transform: translate(0,0);
+  opacity: 1;
+  }
+}
+
+.fadein.fadein_active h2{
+  font-weight: lighter;
+  transform: scale(1,1.2) translate(0,0);
+}
+
+/*fadein_let*/
+.fadein_main_let{
+  animation-name:fadeinmain_let;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+.fadein_main_let_trigger{
+  opacity: 0;
+}
+@keyframes fadeinmain_let{
+  from {
+   transform: translate(0,5px);
+  opacity: 0;
+  }
+
+  to {
+   transform: translate(0,0) scale(1,1.2);
+  opacity: 1;
+  }
+}
+
+@media(min-width:900px){
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  .more_pc{
+    width: 56.94%;
+    display: inline-block;
+    margin-left: 23.6%;
+  }
+  .more_pc img{
+    width: 100%;
+  }
+}
+@media(max-width:899px){
+  .pc{
+    display: none;
+  }
+  .mb{
+    display: block;
+  }
+  .more_mb{
+    width: 69.333%;
+    max-width: 330px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .more_mb img{
+    width: 100%;
+  }
+  .more_pc{
+    width: 69.333%;
+    max-width: 330px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+  .more_pc img{
+    width: 100%;
+  }
+}

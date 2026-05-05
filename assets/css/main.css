@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+main{
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+  .main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  }
+  .mainvisual{
+    width: 478px;
+    height: 478px;
+    margin: auto auto auto 0;
+  }
+  h1{
+    font-size: 5.2rem;
+    margin-left: -325px;
+  }
+  main a p{
+    font-size: 2.0rem;
+    opacity: 0.6;
+    display: block;
+    margin: -70px auto 0 auto;
+    width: 86px;
+  }
+  main a div{
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-style: none solid solid none;
+    border-width: 1px;
+    border-color: #383330;
+    opacity: 0.6;
+    transform: rotate(45deg);
+    margin: 0 auto;
+  }
+  
+
+@media(max-width:563px){
+  .mainvisual{
+    width: 200px;
+    height: 200px;
+  }
+  h1{
+    font-size: 4.2rem;
+  }
+}

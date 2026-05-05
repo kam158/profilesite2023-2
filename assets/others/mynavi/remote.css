@@ -1,0 +1,422 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*在宅*/
+/*mb*/
+@media(max-width:700px){
+  .remote_mb{
+    display: block;
+  }  
+  .remote_pc{
+    display: none;
+  }
+  .remote_pad{
+    display: none;
+  }
+  
+  .remote_relative_1{
+    margin-bottom: 30px;
+  }
+  .remote_relative_2{
+    margin-bottom: 30px;
+  }
+  .remote_relative_3{
+    margin-bottom: 28px;
+  }
+  .remote_relative_4{
+    margin-bottom: 35px;
+  }
+  
+  .remote_title{
+    width: 228px;
+    height: 64px;
+    margin: 0 auto;
+  }
+  .remote_title h2{
+    text-align: center;
+    width: 228px;
+    margin-top: -48px;
+  }
+  .remote_title img{
+    margin: 20px auto auto 110px;
+  }
+  .remote_let_1{
+    width: 248px;
+    height: 64px;
+    padding: 23px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #F3B16A;
+    border-radius: 25px;
+    border-width: 3px;
+  }
+  .remote_let_1 p{
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+  
+  .remote_let_2{
+    width: 313px;
+    margin: 0 auto;
+  }
+  .remote_let_3{
+    width: 313px;
+    margin: 0 auto;
+  }
+
+  .remote_h3_1{
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-top: -30px;
+  }
+  .remote_h3_1 span{
+    font-size: 2.5rem;
+    font-family: "kozuka-gothic-pr6n","Arial, Helvetica", 'sans-serif';
+    letter-spacing: 2.1rem;
+  }
+  .remote_p_1{
+    font-size: 1.5rem;
+    text-indent: 3.75rem;
+    line-height: 2.4rem;
+  }
+  
+  
+  .remote_h3_2{
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-top: -30px;
+  }
+  .remote_h3_2 span{
+    font-size: 2.5rem;
+    font-family: "kozuka-gothic-pr6n","Arial, Helvetica", 'sans-serif';
+    letter-spacing: 2.1rem;
+  }
+  .remote_p_2{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-left: 39px;
+  }
+  .remote_relative_3 img{
+    margin-left: -10px;
+    width: 24px;
+  }
+  .remote_photo_1{
+    text-align: right;
+  }
+  .remote_photo_1 img{
+    width: 259px;
+    height: 185px;
+  }
+  .remote_photo_2{
+    width: 231px;
+    height: 161px;
+    margin-top: -55px;
+  }
+  
+  /*cv*/
+  .kyuujin_relative{
+    margin-bottom: 57px;
+  }
+  .kyuujin{
+    margin: 0 auto;
+    width: 185px;
+    height: 86px;
+  }
+  .allow_kyuujin{
+    width: 101px;
+    height: 14.81px;
+    margin: -63px 0 auto auto;
+  }
+  .kyuujin_let{
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: -62px auto auto 35px
+  }
+  
+}
+
+
+/*pad*/
+@media only screen and (min-width:701px) and (max-width:1240px){
+  .remote_mb{
+    display: none;
+  }  
+  .remote_pc{
+    display: block;
+  }
+  .rmeote_pad{
+    display: block;
+  }
+  
+  .remote_relative_1{
+    margin-bottom: 30px;
+  }
+  .remote_relative_2{
+    margin-bottom: 30px;
+  }
+  .remote_relative_3{
+    margin-bottom: 28px;
+  }
+  .remote_relative_4{
+    margin-bottom: 5px;
+  }
+  
+  .remote_title{
+    width: 228px;
+    height: 64px;
+    margin: 0 auto;
+  }
+  .remote_title h2{
+    text-align: center;
+    width: 228px;
+    margin-top: -45px;
+  }
+  .remote_title img{
+    margin: 17px auto auto 110px;
+  }
+  .remote_let_1{
+    width: 372px;
+    height: 46px;
+    padding: 23px;
+    margin: 0 auto;
+    margin-top: 4px;
+    border-style: solid;
+    border-color: #F3B16A;
+    border-radius: 25px;
+    border-width: 3px;
+  }
+  .remote_let_1 br{
+    display: none;
+  }
+  .remote_let_1 p{
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    width: 360px;
+  }
+  
+  .remote_let_2{
+    width: 313px;
+    margin: 0 auto;
+  }
+  .remote_let_3{
+    width: 313px;
+    margin: 0 auto;
+  }
+  .remote_h3_1{
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-top: -30px;
+  }
+  .remote_h3_1 span{
+    font-size: 2.5rem;
+    font-family: "kozuka-gothic-pr6n","Arial, Helvetica", 'sans-serif';
+    letter-spacing: 2.1rem;
+  }
+  .remote_p_1{
+    font-size: 1.5rem;
+    text-indent: 3.75rem;
+    line-height: 2.4rem;
+  }
+  
+  
+  .remote_h3_2{
+    font-size: 2.1rem;
+    line-height: 2.4rem;
+    margin-top: -30px;
+  }
+  .remote_h3_2 span{
+    font-size: 2.5rem;
+    font-family: "kozuka-gothic-pr6n","Arial, Helvetica", 'sans-serif';
+    letter-spacing: 2.1rem;
+  }
+  .remote_p_2{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    margin-left: 38px;
+  }
+  .remote_relative_3 img{
+    margin-left: -10px;
+    width: 24px;
+  }
+  .remote_photo_1{
+    text-align: right;
+  }
+  .remote_photo_1 img{
+    width: 439px;
+    height: 300px;
+  }
+  .remote_photo_2{
+    width: 411px;
+    height: 296px;
+    margin-top: -142px;
+  }
+  .remote_background{
+    width: 100%;
+  }
+  .remote_background_div{
+    height: 0px;
+  }
+  
+  /*cv*/
+  .kyuujin_relative{
+    margin-bottom: 90px;
+  }
+  .kyuujin{
+    margin: 0 auto;
+    width: 245px;
+    height: 86px;
+  }
+  .allow_kyuujin{
+    margin: -57px 0 auto auto;
+    width: 201.26px;
+    height: 35.81px;
+  }
+  .kyuujin_let{
+    font-size: 2.0rem;
+    font-weight: normal;
+    margin: -78px auto auto 42px;
+  }
+  .kyuujin_back{
+    width: 260px;
+  }
+  
+}
+
+
+/*pc*/
+@media(min-width:1241px){
+  .remote_mb{
+    display: none;
+  }  
+  .remote_pc{
+    display: block;
+  }
+  .remote_pad{
+    display: none;
+  }
+  
+  .remote_relative_1{
+    margin-bottom: 130px;
+  }
+  .remote_relative_2{
+    margin-bottom: 110px;
+  }
+  .remote_relative_3{
+    margin-bottom: 70px;
+  }
+  .remote_relative_4{
+    margin-bottom: 80px;
+  }
+  .kyuujin_relative{
+    margin-bottom: 230px;
+  }
+  
+  
+  .remote_title{
+    width: 644px;
+    height: 165px;
+    margin: 0 auto;
+  }
+  .remote_title h2{
+    text-align: center;
+    width: 644px;
+    margin-top: -105px;
+  }
+  .remote_title img{
+    margin: 34px auto auto 315px;
+    width: 149px;
+    height: 40px;
+  }
+  
+  .remote_let_1{
+    width: 1000px;
+    height: 145px;
+    padding: 68px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #F3B16A;
+    border-radius: 52px;
+    border-width: 6px;
+    text-align: center;
+  }
+  .remote_let_1 p{
+    text-align: left;
+    font-size: 4.5rem;
+    line-height: 7.5rem;
+    width: 1000px;
+  }
+  .remote_let_1 br{
+    display: none;
+  }
+  
+  .remote_let_2{
+    width: 956px;
+    margin: 0 auto;
+  }
+  .remote_let_3{
+    width: 956px;
+    margin: 0 auto;
+  }
+  .remote_h3_1{
+    font-size: 4.5rem;
+    line-height: 5.2rem;
+    margin-top: -50px;
+  }
+  .remote_h3_1 span{
+    font-size: 5.4rem;
+    font-family: "kozuka-gothic-pr6n","Arial, Helvetica", 'sans-serif';
+    letter-spacing: 4.5rem;
+  }
+  .remote_p_1{
+    font-size: 3.1rem;
+    text-indent: 8.05rem;
+    line-height: 6rem;
+  }
+  
+  
+  .remote_h3_2{
+    font-size: 4.5rem;
+    line-height: 5.2rem;
+    margin-top: -50px;
+  }
+  .remote_h3_2 span{
+    font-size: 5.4rem;
+    font-family: "kozuka-gothic-pr6n","Arial, Helvetica", 'sans-serif';
+    letter-spacing: 4.5rem;
+  }
+  .remote_p_2{
+    font-size: 3.1rem;
+    line-height: 3.8rem;
+    margin-left: 81px;
+  }
+  .remote_relative_3 img{
+    margin-left: -20px;
+  }
+  
+  .remote_photo_1{
+    text-align: right;
+  }
+  .remote_photo_2{
+    margin-top: -240px;
+  }
+  
+  
+  
+  /*cv*/
+  .allow_kyuujin{
+    margin: -143px 0 auto auto;
+  }
+  .kyuujin{
+    margin: 0 auto;
+    width: 768px;
+    height: 223px;
+  }
+  .kyuujin_let{
+    font-size: 5.1rem;
+    font-weight: normal;
+    margin: -150px auto auto 160px;
+  }
+ 
+}

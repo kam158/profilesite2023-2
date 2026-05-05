@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(min-width:1000px){
+  footer{
+  }
+  footer img{
+    width: 240px;
+    display: block;
+    margin: auto 5.55556% auto auto;
+  }
+  footer div{
+    width: 1000px;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+    border-radius: 90px 0 0 0;
+    background-color: #fff;
+    margin: -12px 0 auto auto;
+  }
+  footer nav{
+    text-align: left;
+    transform: scale(1,1.2);
+  }
+  footer nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 580px;
+    padding-top: 30px;
+    padding-left: 125px;
+  }
+  footer li{
+    font-size: 3.9rem;
+  }
+  footer li span{
+    font-size: 2.874rem;
+  }
+  footer small{
+    font-size: 2.0rem;
+    width: 220px;
+    margin: -15px 10px auto auto;
+    display: block;
+  }
+}
+
+@media(max-width:999px){
+  footer{
+  }
+  footer img{
+    width: 134px;
+    display: block;
+    margin: auto 5.55556% auto auto;
+  }
+  footer div{
+    width: 100%;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    background-color: #fff;
+    margin-top: -7px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer nav{
+    text-align: left;
+    transform: scale(1,1.2);
+    height: 52px;
+    margin-top: 26px;
+  }
+  footer nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 214px;
+    line-height: 2.6rem;
+    padding-left: 15px;
+  }
+  footer li{
+    font-size: 2.5rem;
+  }
+  footer li span{
+    font-size: 1.968rem;
+  }
+  footer small{
+    font-size: 1.1rem;
+    width: 122px;
+    margin-top: 70px;
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

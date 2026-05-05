@@ -1,0 +1,229 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*mb*/
+ @keyframes fadeOutRight{
+    0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+   100% {
+    opacity: 1;
+    transform: translate3d(100%, 0, 0);
+  }
+  }
+@keyframes fadeInRight{
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+}
+100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+}
+@media(max-width:1376px){
+  
+  .zindex1000{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+    height: 46px;
+    background: #fff;
+  }
+  .head_mb{
+    display: block;
+  }
+  .head_pc{
+    display: none;
+  }
+  /*位置*/
+  .headder_relative{
+    width: 100%;
+    height: 46px;
+    background-color: #fff;
+  }
+  /*ロゴ*/
+  .logo_headder{
+    width: 150px;
+    height: 30.4px;
+    margin: 6px auto auto 9px;
+  }
+  /*ハンバーガー*/
+  .hamburger{
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    z-index: 10000;
+  }
+  .hamburger span, .hamburger span:before, .hamburger span:after{
+    position: absolute;
+    width: 33px;
+    height: 2px;
+    background-color: #333;
+    border-radius: 1px;
+    content: "";
+    transition: transform .6s ease-in-out, top .5s ease;
+  }
+  .hamburger span:before{
+    right: 0px;
+    width: 22.5px;
+    top: 12px;
+  }
+  .hamburger span:after{
+    right: 0px;
+    width: 13px;
+    top: 23px;
+  }
+  
+  .hamburger_active span{
+    -webkit-transform: translateY(14px) translateX(0) rotate(45deg);
+    transform: translateY(14px) translateX(0) rotate(45deg);
+    width: 30px;
+  }
+  .hamburger_active span:before{
+    opacity: 0;
+  }
+  .hamburger_active span:after{
+    -webkit-transform: translateY(-7px) translateX(0) rotate(-45deg);
+    transform: translateY(-23px) translateX(0) rotate(-90deg);
+    width: 30px;
+    margin-left: 0;
+  }
+  
+/*nav*/
+  nav{
+    display: none;
+  }
+  .nav_close{
+    animation-duration: 0.4s;
+    animation-name: fadeOutRight;
+  }
+  .nav_open{
+    display: block;
+    top: 0;
+    opacity: 1;
+    animation-duration: 0.4s;
+    animation-name: fadeInRight;
+    z-index: 1000;
+  }
+  .nav_background{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(248,245,237,0.5);
+  }
+  
+  /*navの内容*/
+  .headder_relative nav{
+    position: absolute;
+    width: 355px;
+    height: 300px;
+    right: 0;
+    top: 46px;
+    background-color: rgb(255,255,255);
+    border-radius: 0 0 0 10px;
+  }
+  .ham_let{
+    font-size: 1.5rem;
+    margin-left: 80px;
+  }
+  
+  .login{
+    width: 130px;
+    text-align: center;
+    background-color: #5FB9DB;
+    border-radius: 7px;
+  }
+}
+
+
+
+/*pc*/
+@media(min-width:1377px){
+  .head_mb{
+    display: none;
+  }
+  .head_pc{
+    display: block;
+  }
+  /*位置*/
+  .headder_relative{
+    height: 91px;
+    width: 100%;
+    background-color: #fff;
+  }
+  /*ロゴ*/
+  .logo_headder{
+    margin: 21px auto auto 17px;
+    width: 235px;
+    height: 47.6px;
+  }
+  /*メニュー*/
+  .menu_let{
+    position: absolute;
+    top: 36px;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+  .menu_problem{
+    right: 879px;
+  }
+  .menu_flow{
+    right: 694px;
+  }
+  .menu_remote{
+    right: 481px;
+  }
+  .menu_voc{
+    right: 248px;
+  }
+  .menu_QA{
+    right: 160px;
+  }
+  .login{
+    position: absolute;
+    top: 24px;
+    height: 44px;
+    width: 104px;
+    right: 33px;
+    text-align: center;
+    background-color: #5FB9DB;
+    border-radius: 7px;
+  }
+  /*ライン*/
+  .menu_line_left span, .menu_line_left span:before, .menu_line_left span:after{
+    position: absolute;
+    width: 2px;
+    height: 27px;
+    background-color: #333;
+    content: "";
+    top: 35px;
+    right: 864px;
+  }
+  .menu_line_left span:before{
+    left: 188px;
+    top: 0px;
+  }
+  .menu_line_left span:after{
+    left: 400px;
+    top: 0px;
+  }
+  .menu_line_right span{
+    position: absolute;
+    width: 2px;
+    height: 27px;
+    background-color: #333;
+    content: "";
+    top: 35px;
+    right: 224px;
+  }
+}

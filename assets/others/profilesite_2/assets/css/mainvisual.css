@@ -1,0 +1,459 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(min-width:1200px){
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  main{
+    height: 750px;
+  }
+  main nav{
+    width: 308px;
+    padding: 50px 0 0 60px;
+    /*padding: 76.38px 0 0 6.213%;*/
+    transform: scale(1,1.2);
+  }
+  main li{
+    font-size: 6.751rem;
+    line-height: 8rem;
+  }
+  main li span{
+    font-size: 4.975rem;
+  }
+  .main_line{
+    position: absolute;
+    top: 127px;
+    left: 60px;
+    z-index: 100;
+  }
+  main h1{
+    position: absolute;
+    top: 0;
+    right: 7.5694%;
+    z-index: 100;
+  }
+  .main_img_1{
+    position: absolute;
+    top: 219px;
+    right: 23.333%;
+  }
+  .main_img_2{
+    position: absolute;
+    top: 38px;
+    right:14.44%;
+  }
+  .main_img_3{
+    position: absolute;
+    top: 143.08px;
+    left: 25.855%;
+  }
+  .main_img_4{
+    position: absolute;
+    top: 410.05px;
+    left: 4.5638%;
+  }
+  .main_p_1{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -30px;
+    right: 40px;
+  }
+  .main_p_2{
+    transform:rotate(-90deg);
+    font-size: 2.2rem;
+    position: absolute;
+    top: 340px;
+    left: -41px;
+  }
+  .main_p_3{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -29px;
+    left: 10px;
+  }
+
+
+/*instaetc*/
+  .insta_x{
+    width: 167px;
+    position: sticky;
+    margin: auto 0 auto auto;
+    z-index: 10000;
+    top: 0; /*←------------------追記*/
+  }
+  .insta_x_background{
+    width: 167px;
+  }
+  .instagram{
+    position: absolute;
+    top: 115px;
+    left: 50px;
+  }
+  .X{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+  }
+}
+
+@media only screen and (max-width:1199px) and (min-width:900px){
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  main{
+    height: 750px;
+  }
+  main nav{
+    width: 308px;
+    padding: 50px 0 0 60px;
+    transform: scale(1,1.2);
+  }
+  main li{
+    font-size: 6.751rem;
+    line-height: 8rem;
+  }
+  main li span{
+    font-size: 4.975rem;
+  }
+  .main_line{
+    position: absolute;
+    top: 127px;
+    left: 60px;
+    z-index: 100;
+  }
+  main h1{
+    position: absolute;
+    top: 0;
+    right: 7.5694%;
+    z-index: 100;
+  }
+  .main_img_1{
+    position: absolute;
+    top: 219px;
+    right: 21%;
+    width: 230px;
+  }
+  .main_img_1 img{
+    width: 100%;
+  }
+  .main_img_2{
+    position: absolute;
+    top: 38px;
+    right: 14.44%;
+    width: 220px;
+  }
+  .main_img_2 img{
+    width: 100%;
+  }
+  .main_img_3{
+    position: absolute;
+    top: 143.08px;
+    left: 25.855%;
+    width: 420px;
+  }
+  .main_img_3 img{
+    width: 100%;
+  }
+  .main_img_4{
+    position: absolute;
+    top: 410.05px;
+    left: 4.5638%;
+    width: 420px;
+  }
+  .main_p_1{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -30px;
+    right: 40px;
+  }
+  .main_p_2{
+    transform:rotate(-90deg);
+    font-size: 2.2rem;
+    position: absolute;
+    top: 290px;
+    left: -41px;
+  }
+  .main_p_3{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -29px;
+    left: 10px;
+  }
+
+
+/*instaetc*/
+  .insta_x{
+    width: 167px;
+    position: sticky;
+    margin: auto 0 auto auto;
+    z-index: 10000;
+    top: 0; /*←------------------追記*/
+  }
+  .insta_x_background{
+    width: 167px;
+  }
+  .instagram{
+    position: absolute;
+    top: 115px;
+    left: 50px;
+  }
+  .X{
+    position: absolute;
+    top: 220px;
+    left: 50px;
+  }
+}
+@media only screen and (max-width:899px) and (min-width:501px){
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  main{
+    height: 605px;
+  }
+  main nav{
+    width: 308px;
+    padding: 50px 0 0 60px;
+    transform: scale(1,1.2);
+  }
+  main li{
+    font-size: 6.751rem;
+    line-height: 8rem;
+  }
+  main li span{
+    font-size: 4.975rem;
+  }
+  .main_line{
+    position: absolute;
+    top: 127px;
+    left: 60px;
+    z-index: 100;
+  }
+  main h1{
+    width: 110px;
+    position: absolute;
+    top: 0;
+    right: 7.5694%;
+    z-index: 100;
+  }
+  main h1 img{
+    width: 100%
+  }
+  .main_img_1{
+    position: absolute;
+    top: 219px;
+    right: 21%;
+    width: 180px;
+  }
+  .main_img_1 img{
+    width: 100%;
+  }
+  .main_img_2{
+    position: absolute;
+    top: 38px;
+    right: 14.44%;
+    width: 150px;
+  }
+  .main_img_2 img{
+    width: 100%;
+  }
+  .main_img_3{
+    position: absolute;
+    top: 161.08px;
+    left: 25.855%;
+    width: 320px;
+  }
+  .main_img_3 img{
+    width: 100%;
+  }
+  .main_img_4{
+    position: absolute;
+    top: 390.05px;
+    left: 4.5638%;
+    width: 320px;
+  }
+  .main_p_1{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -30px;
+    right: 20px;
+  }
+  .main_p_2{
+    transform:rotate(-90deg);
+    font-size: 2.2rem;
+    position: absolute;
+    top: 290px;
+    left: -41px;
+  }
+  .main_p_3{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -29px;
+    left: 10px;
+  }
+
+
+/*instaetc*/
+  .insta_x{
+    width: 58px;
+    position: sticky;
+    margin: -40px 0 auto auto;
+    z-index: 10000;
+    top: 0; /*←------------------追記*/
+  }
+  .insta_x_background{
+    width: 58px;
+  }
+  .instagram{
+    position: absolute;
+    top: 41px;
+    left: 20px;
+  }
+  .instagram img{
+    width: 23px;
+  }
+  .X{
+    position: absolute;
+    top: 76px;
+    left: 20px;
+  }
+  .X img{
+    width: 23px;
+  }
+}
+@media(max-width:500px){
+  .pc{
+    display: none;
+  }
+  .mb{
+    display: block;
+  }
+  main{
+    height: 400px;
+  }
+  main nav{
+    width: 180px;
+    padding: 30px 0 0 12px;
+    transform: scale(1,1.2);
+  }
+  main li{
+    font-size: 3.921rem;
+    line-height: 4.5rem;
+  }
+  main li span{
+    font-size: 2.889rem;
+  }
+  .main_line{
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    z-index: 100;
+  }
+  main h1{
+    position: absolute;
+    width: 66px;
+    top: 0px;
+    right: 4.26667%;
+    z-index: 100;
+  }
+  main h1 img{
+    width: 100%;
+  }
+  .main_img_1{
+    width: 102.6px;
+    position: absolute;
+    top: 185.52px;
+    right: 14.4%;
+  }
+  .main_img_1 img{
+    width: 100%;
+  }
+  .main_img_2{
+    width: 121.3px;
+    position: absolute;
+    top: 8.28px;
+    right: 17.6%;
+  }
+  .main_img_2 img{
+    width: 100%;
+  }
+  .main_img_5{
+    width: 137.31px;
+    position: absolute;
+    top: 93.55px;
+    left: 31.4%;
+  }
+  .main_img_6{
+    width: 137.31px;
+    position: absolute;
+    top: 201.69px;
+    left: 2%;
+  }
+
+
+/*instaetc*/
+  .insta_x{
+    width: 58px;
+    position: sticky;
+    margin: -40px 0 auto auto;
+    z-index: 10000;
+    top: 0; /*←------------------追記*/
+  }
+  .insta_x_background{
+    width: 58px;
+  }
+  .instagram{
+    position: absolute;
+    top: 41px;
+    left: 20px;
+  }
+  .instagram img{
+    width: 23px;
+  }
+  .X{
+    position: absolute;
+    top: 76px;
+    left: 20px;
+  }
+  .X img{
+    width: 23px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

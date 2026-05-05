@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /*16px×62.5%=10px*/
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+}
+.relative{
+  position: relative;
+}
+.font_v7{
+  font-family: vdl-v7marugothic, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #333;
+}
+.font_kinuta{
+  font-family: maru-maru-gothic-clr-stdn, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333;
+}
+.font_zenmaru{
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: lighter;
+  color: #333;
+}
+.font_kozuka{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+p{
+  display: block;
+}
+.overview span{
+  font-weight: bolder;
+}
+.overview dt{
+  float: left;
+  font-weight: bolder;
+}
+dt::after{
+  content: "：";
+}
+
+@media(min-width:1040px){
+  
+  /*display*/
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  
+  /*backbtn*/
+  .backbtn{
+    display: block;
+    width: 6%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .backbtn img{
+    width: 100%;
+  }
+  
+  /*h1*/
+  h1{
+    width: 460px;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4rem;
+    border-bottom-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    margin-left: 10.5%;
+  }
+  h1 br{
+    display: none;
+  }
+  /*overview*/
+  .overview{
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+  }
+  
+  .overview_sitebtn{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 50px;
+    margin: 40px auto 0 auto;
+    width: 1000px;
+  }
+  
+  .flex img{
+    width: 480px;
+  }
+ /*explanation*/
+  .ex{
+    width: 460px;
+    font-size: 2.0rem;
+    line-height: 2.8rem;
+    margin-top: 30px;
+  }
+  /*footer*/
+  footer{
+    text-align: center;
+    margin: 210px auto 50px auto;
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width:1039px) and (min-width:600px){
+  
+  /*display*/
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  
+  /*backbtn*/
+  .backbtn{
+    display: block;
+    width: 6%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .backbtn img{
+    width: 100%;
+  }
+  /*flex*/
+  .flex{
+    display: flex;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+  }
+  /*h1*/
+  h1{
+    width: 390px;
+    line-height: 3.5rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    border-bottom-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    margin-left: 14.5%;
+  }
+  h1 br{
+    display: none;
+  }
+  /*overview*/
+  .overview{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 60px;
+  }
+  
+  .overview_sitebtn{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+  }
+  
+  
+  /*画像サイズ*/
+  .flex img{
+    width:  350px;
+  }
+  
+  /*explanation*/
+  .div_ex{
+    width: 70%;
+    margin: 30px auto 0 auto;
+  }
+  .ex{
+    width: 450px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  /*footer*/
+  footer{
+    text-align: center;
+    margin: 210px auto 50px auto;
+    font-size: 2rem;
+  }
+}
+
+@media(max-width:599px){
+  
+  /*display*/
+  .pc{
+    display: none;
+  }
+  .mb{
+    display: block;
+  }
+  
+  /*backbtn*/
+  .backbtn{
+    display: block;
+    width: 16%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .backbtn img{
+    width: 100%;
+  }
+  /*h1*/
+  h1{
+    width: 270px;
+    line-height: 3.0rem;
+    font-weight: 500;
+    font-size: 2.5rem;
+    border-bottom-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    margin: 25px auto 0 auto;
+  }
+  /*flex*/
+  .flex{
+    width: 305px;
+    margin: 20px auto 0 auto;
+  }
+  
+  /*overview*/
+  .overview{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+ 
+  .overview_sitebtn{
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+  
+  
+  /*画像サイズ*/
+  .flex img{
+    width: 300px;
+  }
+  
+  /*explanation*/
+  .div_ex{
+    width: 345px;
+    margin: 30px auto 0 auto;
+  }
+  .ex{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  /*footer*/
+  footer{
+    text-align: center;
+    margin: 210px auto 50px auto;
+    font-size: 2rem;
+  }
+}

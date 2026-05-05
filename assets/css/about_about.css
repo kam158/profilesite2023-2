@@ -1,0 +1,277 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+/*写真の文字表示*/
+.mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(255,255,255,0.80);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.mask:hover{
+    opacity: 1;
+}
+/*経歴の横スクロール*/
+.horizontal-scroll {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  height: 100vh;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.horizontal-scroll p{
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+.horizontal-scroll p span{
+  font-size: 2.5rem;
+  line-height: 3.0rem;
+}
+.career{
+  width: 300px;
+  margin-left: 50px;
+}
+.career_1{
+}
+.opacity_{
+  opacity: 0;
+}
+
+.dot{
+  display: grid;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #383330;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.dot::after{
+  content: "";
+  display: block;
+  width: 350px;
+  height: 2px;
+  background-color: #383330;
+  border-radius: 2px;
+  
+}
+/* スクロールバーのカスタマイズ */
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-scroll li{
+  display: block;
+}
+
+
+
+.career__{
+  background-color: #E7C6A8;
+  background-image: url("../svg/wave_about_1.svg"),url("../svg/wave_about_2.svg");
+  background-repeat: no-repeat;
+  background-position: top,bottom;
+}
+
+  .main_flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+  }
+  
+  h1{
+    font-size: 4.0rem;
+    width: 171px;
+    border-style: solid;
+    border-width: 1px 0;
+    border-color: #383330;
+    padding: 10px;
+  }
+  .main_flex_2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .kamadahinata{
+    width: 300px;
+    padding: 40px 20px 0 0;
+  }
+  main p{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+  main p span{
+    font-size: 2.5rem;
+    line-height: 6.0rem;
+  }
+  h2{
+    font-size: 2.5rem;
+    width: 225px;
+    padding: 5px 10px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #383330;
+  }
+  
+  .c-slider-1__slide p{
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+  }
+  .c-slider-1__slide p span{
+    font-size: 2.0rem;
+    line-height: 2.2rem;
+  }
+  h3{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 15px 0 0 15px;
+  }
+  .strong_detail{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    padding: 10px 0 0 30px;
+  }
+  .skill_1,.skill_2{
+    display: flex;
+    margin-top: 10px;
+  }
+  .skill_1 div,.skill_2 div{
+    margin-right: 20px;
+    text-align: center;
+  }
+  .skill_1{
+    padding-top: 25px;
+  }
+  .photo_{
+    position: relative;
+  }
+
+
+@media(min-width:1000px){
+  main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .strongpoints,.skill,.photos{
+    padding: 120px 240px 0 240px;
+  }
+  .skill_1,.skill_2{
+     margin-left: 20px;
+  }
+  .strongpoints_contents{
+    display: flex;
+  }
+  .strongpoints_contents div{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #383330;
+    margin: 20px;
+    border-radius: 63px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center
+  }
+  .horizontal-scroll{
+    padding: 0 200px;
+  }
+  .photos_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 40px 10px 0 10px;
+    gap: 10px;
+  }
+   .mask p{
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    padding: 60px 5px 0 5px;
+  }
+
+}
+@media(max-width:999px){
+  main{
+    height: 100vh;
+    display: flex;
+    padding: 100px 50px 0 35px;
+  }
+  .career{
+    width: 272px;
+    margin-left: 0;
+  }
+  .strongpoints,.skill,.photos{
+    padding: 90px 50px 0 50px;
+  }
+  .skill_1,.skill_2{
+     margin-left: 0px;
+  }
+  .skill_1 div img,.skill_2 div img{
+    width: 40px;
+  }
+  .strongpoints_contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .strongpoints_contents div{
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #383330;
+    margin: 5px;
+    border-radius: 63px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    justify-content: center
+  }
+  .horizontal-scroll{
+    padding-left: 20px;
+  }
+  .photo_ img{
+    width: 100px;
+  }
+  .photos_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 10px 0 10px;
+    gap: 10px;
+  }
+   .mask p{
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    padding: 10px 5px 0 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

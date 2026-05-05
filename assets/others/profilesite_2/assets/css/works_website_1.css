@@ -1,0 +1,429 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /*16px×62.5%=10px*/
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+}
+body{
+  background-color: #fff;
+}
+.relative{
+  position: relative;
+}
+.font_v7{
+  font-family: vdl-v7marugothic, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #333;
+}
+.font_kinuta{
+  font-family: maru-maru-gothic-clr-stdn, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333;
+}
+.font_zenmaru{
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: lighter;
+  color: #333;
+}
+.font_kozuka{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+p{
+  display: block;
+}
+.overview span{
+  font-weight: bolder;
+}
+.overview dt{
+  float: left;
+  font-weight: bolder;
+}
+dt::after{
+  content: "：";
+}
+
+
+@media(min-width:1040px){
+  
+  /*display*/
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  
+  /*backbtn*/
+  .backbtn{
+    display: block;
+    width: 6%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .backbtn img{
+    width: 100%;
+  }
+  
+  /*h1*/
+  h1{
+    width: 450px;
+    font-weight: 500;
+    font-size: 3.5rem;
+    border-bottom-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    margin-left: 10.5%;
+  }
+  /*overview*/
+  .overview{
+    font-size: 2.3rem;
+    line-height: 3.2rem;
+    width: 530px;
+  }
+  .sitebtn{
+    height: 48px;
+    font-size: 2.3rem;
+    line-height: 4.8rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #333;
+    display: block;
+    padding: 0 20px;
+    margin: auto auto 0 70px;;
+  }
+  /*h2*/
+  h2{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    border-color: #333;
+    padding-left: 10px;
+    width: 1000px;
+    margin: 100px auto 30px auto;
+  }
+  
+  /*let*/
+  .let{
+    font-size: 2rem;
+    color: #6F6E6E;
+    margin: 0 auto 10px 0;
+  }
+  
+  
+  /*画像サイズ*/
+  .pcver{
+    width: 460px;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .mbver{
+    width: 250px;
+    height:100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .pcver img,.mbver img{
+    width: 100%;
+  }
+  /*scroll*/
+  .scroll{
+    height: 500px;
+    overflow: auto;
+  }
+  /*flex*/
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 10px;
+    margin: 40px auto 0 auto;
+    width: 1000px;
+  }
+  
+  /*explanation*/
+  .ex{
+    width: 260px;
+    font-size: 2.0rem;
+    line-height: 2.9rem;
+    margin-top: 30px;
+  }
+  /*footer*/
+  footer{
+    text-align: center;
+    margin: 210px auto 50px auto;
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width:1039px) and (min-width:600px){
+  
+  /*display*/
+  .pc{
+    display: block;
+  }
+  .mb{
+    display: none;
+  }
+  
+  /*backbtn*/
+  .backbtn{
+    display: block;
+    width: 6%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .backbtn img{
+    width: 100%;
+  }
+  /*flex*/
+  .flex{
+    display: flex;
+    margin-left: 14.5%;
+    margin-right: 14.5%;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+  }
+  /*h1*/
+  h1{
+    width: 450px;
+    font-weight: 500;
+    font-size: 3.5rem;
+    border-bottom-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    margin-left: 14.5%;
+  }
+  /*overview*/
+  .overview{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 60px;
+    width: 370px;
+  }
+  .sitebtn{
+    height: 42px;
+    width: 100px;
+    font-size: 1.6rem;
+    line-height: 4.2rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #333;
+    display: block;
+    padding: 0 20px;
+    margin: auto auto 0 0;
+  }
+  /*h2*/
+  h2{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    border-color: #333;
+    padding-left: 10px;
+    margin: 100px auto 30px 14.5%;
+  }
+  
+  /*let*/
+  .let{
+    font-size: 2rem;
+    color: #6F6E6E;
+    margin: 0 auto 10px 0;
+  }
+  
+  /*画像サイズ*/
+  .pcver{
+    width: 230px;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .mbver{
+    width: 140px;
+    height:100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .mb_ham{
+    width: 140px;
+    height: max-content;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .pcver img,.mbver img{
+    width: 100%;
+  }
+  /*scroll*/
+  .scroll{
+    height: 200px;
+    overflow: auto;
+  }
+  
+  /*explanation*/
+  .div_ex{
+    width: 70%;
+    margin: 30px auto 0 auto;
+  }
+  .ex{
+    width: 450px;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  /*footer*/
+  footer{
+    text-align: center;
+    margin: 210px auto 50px auto;
+    font-size: 2rem;
+  }
+}
+
+
+
+@media(max-width:599px){
+  
+  /*display*/
+  .pc{
+    display: none;
+  }
+  .mb{
+    display: block;
+  }
+  
+  /*backbtn*/
+  .backbtn{
+    display: block;
+    width: 16%;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .backbtn img{
+    width: 100%;
+  }
+  /*h1*/
+  h1{
+    width: 320px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    border-bottom-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #333;
+    margin: 25px auto 0 auto;
+  }
+  /*flex*/
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 10px; 
+    justify-content: center;
+    width: 345px;
+    margin: 20px auto 0 auto;
+  }
+  
+  /*overview*/
+  .overview{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 350px;
+    margin-left: 0px;
+    margin-right: auto;
+  }
+  .sitebtn{
+    height: 42px;
+    width: 100px;
+    font-size: 1.6rem;
+    line-height: 4.2rem;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #333;
+    display: block;
+    padding: 0 20px;
+    margin: auto auto 0 0;
+  }
+  /*h2*/
+  h2{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    border-color: #333;
+    padding-left: 10px;
+    width: 345px;;
+    margin: 40px auto 0 auto;
+  }
+  
+  /*let*/
+  .let{
+    font-size: 1.6rem;
+    color: #6F6E6E;
+    margin: 0 auto 5px 0;
+  }
+  
+  /*画像サイズ*/
+  .pcver{
+    width: 345px;
+    height: 100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .div_mb{
+    width: 345px;
+    margin: 0 auto 0 0;
+  }
+  .mbver{
+    width: 160px;
+    height:100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .mb_ham{
+    width: 160px;
+    height: max-content;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #333;
+  }
+  .pcver img,.mbver img{
+    width: 100%;
+  }
+  /*scroll*/
+  .scroll{
+    height: 345px;
+    overflow: auto;
+  }
+  
+  /*explanation*/
+  .div_ex{
+    width: 345px;
+    margin: 30px auto 0 auto;
+  }
+  .ex{
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  /*footer*/
+  footer{
+    text-align: center;
+    margin: 210px auto 50px auto;
+    font-size: 2rem;
+  }
+}

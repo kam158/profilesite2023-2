@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+  headder{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-image: url("../svg/wave_headder.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+  .headder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  headder a,nav{
+    display: block;
+    vertical-align: middle;
+  }
+  headder ul{
+    display: flex;
+  }
+  
+
+@media(min-width:1000px){
+  .headder{
+     padding: 50px 200px 30px 200px;
+  }
+  headder li{
+    margin-left: 40px;
+    font-size: 2.0rem;
+  }
+}
+@media(max-width:999px){
+  .headder{
+     padding: 15px 20px 15px 20px;
+  }
+  headder li{
+    margin-left: 35px;
+    font-size: 2.0rem;
+  }
+}

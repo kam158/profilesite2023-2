@@ -1,0 +1,388 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*mb*/
+@media(max-width:600px){
+  .resolve_mb{
+    display: block;
+  }
+  .resolve_pc{
+    display: none;
+  }
+  .resolve_pad{
+    display: none;
+  }
+  
+  .resolve_relative_1{
+    margin-bottom: 10px;
+  }
+  .resolve_relative_2{
+    margin-bottom: 30px;
+  }
+  .resolve_relative_3{
+    margin-bottom: 20px;
+  }
+  .resolve_title{
+    text-align: center;
+  }
+  .resolve_title h2{
+    text-align: center;
+    margin-top: -80px;
+  }
+  .resolve_title img{
+    margin-top: 50px;
+  }
+  .resolve_number{
+    font-size: 3.0rem;
+    line-height: 3.0rem;
+    font-family:  "kozuka-gothic-pr6n", sans-serif;
+  }
+  .resolve_photo{
+    width: 185px;
+    height: 132px;
+  }
+  /*resolve_1*/
+  .resolve1{
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .number_1{
+    margin-left: 10px;
+    margin-top: -182px;
+  }
+  .resolve_1{
+    margin-top: 25px;
+    width: 227px;
+    height: 169px;
+    border-radius: 28px;
+    background-color: #EFB1CA;
+  }
+  .resolve_1 h3{
+    padding-top: 19px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  .resolve_1 span{
+    letter-spacing: -0.25rem;
+  }
+  .resolve_1 p{
+    margin: 12px auto auto 34px;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    width: 174px;
+    
+  }
+  .resolve_photo_1{
+    margin: 130px auto auto 140px;
+  }
+  .resolve_1_back{
+    margin: -85px auto auto 68px;
+  }
+  
+  /*resolve_2*/
+   .resolve2{
+    margin-top: 10px;
+    width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .number_2{
+    margin: -186px auto auto 100px;
+  }
+  .resolve_2{
+    margin: 13px 10px auto auto;
+    width: 227px;
+    height: 169px;
+    border-radius: 28px;
+    background-color: #EFB1CA;
+  }
+  .resolve_2 h3{
+    padding-top: 19px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+  }
+  .resolve_2 p{
+    margin: 12px auto auto 34px;
+    text-align: left;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    width: 174px;
+  }
+  .resolve_photo_2{
+    margin-top: 140px;
+  }
+  .resolve_2_back{
+    margin: -80px auto auto 194px;
+  }
+  
+  
+}
+
+/*pad*/
+@media only screen and (min-width:601px) and (max-width:1240px){
+  .resolve_mb{
+    display: block;
+  }
+  .resolve_pc{
+    display: none;
+  }
+  .resolve_pad{
+    display: block;
+  }
+  
+  
+  
+  .resolve_relative_1{
+    margin-bottom: 10px;
+  }
+  .resolve_relative_2{
+    margin-bottom: 30px;
+  }
+  .resolve_relative_3{
+    margin-bottom: 20px;
+  }
+  .resolve_title{
+    text-align: center;
+  }
+  .resolve_title h2{
+    text-align: center;
+    margin-top: -80px;
+  }
+  .resolve_title img{
+    margin-top: 50px;
+  }
+  .resolve_number{
+    font-size: 3.0rem;
+    line-height: 3.0rem;
+    font-family:  "kozuka-gothic-pr6n", sans-serif;
+  }
+  .resolve_photo{
+    width: 245px;
+    height: 175px;
+  }
+  /*resolve_1*/
+  .resolve1{
+    width: 520px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .number_1{
+    margin-left: 50px;
+    margin-top: -222px;
+  }
+  .resolve_1{
+    margin: -325px auto auto 40px;
+    width: 267px;
+    height: 209px;
+    border-radius: 28px;
+    background-color: #EFB1CA;
+  }
+  .resolve_1 h3{
+    padding-top: 19px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 2.6rem;
+  }
+  .resolve_1 span{
+    letter-spacing: -0.25rem;
+  }
+  .resolve_1 p{
+    margin: 12px auto auto 34px;
+    text-align: left;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    width: 184px;
+    
+  }
+  .resolve_photo_1{
+    margin: 60px auto auto 275px;
+  }
+  .resolve_1_back{
+    margin: -35px auto auto 203px;
+  }
+  
+  /*resolve_2*/
+   .resolve2{
+    margin-top: 10px;
+    width: 520px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .number_2{
+    margin: -226px auto auto 240px;
+  }
+  .resolve_2{
+    margin: -300px 28px auto auto;
+    width: 267px;
+    height: 209px;
+    border-radius: 28px;
+    background-color: #EFB1CA;
+  }
+  .resolve_2 h3{
+    padding-top: 19px;
+    width: 100%;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 2.6rem;
+  }
+  .resolve_2 p{
+    margin: 12px auto auto 34px;
+    text-align: left;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    width: 188px;
+  }
+  .resolve_photo_2{
+    margin-top: 60px;
+  }
+  .resolve_2_back{
+    margin: -30px auto auto 254px;
+  }
+  
+  .resolve_background_1{
+    width: 500px;
+    margin: -59px 0 auto auto;
+  }
+  .resolve_background_2{
+    width: 500px;
+  }
+  
+  
+}
+
+/*pc*/
+@media(min-width:1241px){
+  .resolve_mb{
+    display: none;
+  }
+  .resolve_pc{
+    display: block;
+  }
+  .resolve_pad{
+    display: none;
+  }
+  
+  .resolve_relative_1{
+    margin-bottom: 90px;
+  }
+  .resolve_relative_2{
+  }
+  .resolve_relative_3{
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+  
+  .resolve_title{
+    text-align: center;
+  }
+  .resolve_title h2{
+    margin-top:-197px; 
+  }
+  .resolve_title img{
+    margin-top: 132px;
+    width: 430px;
+    
+  }
+  .resolve_number{
+    font-size: 7.6rem;
+    line-height: 7.6rem;
+    font-family: "kozuka-gothic-pr6n", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .resolve_photo{
+    width: 584.23px;
+    height: 416.6px;
+  }
+  /*resolve_1*/
+  .number_1{
+    margin: -490px auto auto 55px;
+  }
+  .resolve1{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .resolve_1{
+    margin: 40px auto auto 10px;
+    width: 578.42px;
+    height: 456.98px;
+    border-radius: 85px;
+    background-color: #EFB1CA;
+  }
+  .resolve_1 span{
+    letter-spacing: -0.7rem;
+  }
+  .resolve_1 h3{
+    padding-top: 51px;
+    width: 100%;
+    text-align: center;
+    font-size: 4.6rem;
+    line-height: 6.1rem;
+  }
+  .resolve_1 p{
+    margin: 30px auto auto 130px;
+    text-align: left;
+    font-size: 3.0rem;
+    line-height: 5.85rem;
+    width: 406px;
+    
+  }
+  .resolve_photo_1{
+    margin: 140px auto auto 550px;
+  }
+  .resolve_1_back{
+    margin: -70px 690px auto auto;
+  }
+  
+  /*resolve_2*/
+  .resolve2{
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .number_2{
+    margin: -500px auto auto 740px;
+  }
+  .resolve_2{
+    margin: 40px 30px auto auto;
+    width: 578.42px;
+    height: 456.98px;
+    border-radius: 85px;
+    background-color: #EFB1CA;
+  }
+  .resolve_2 h3{
+    padding-top: 58px;
+    width: 100%;
+    text-align: center;
+    font-size: 4.6rem;
+    line-height: 6.1rem;
+  }
+  .resolve_2 p{
+    margin: 30px auto auto 125px;
+    text-align: left;
+    font-size: 3.0rem;
+    line-height: 5.85rem;
+    width: 350px;
+    
+  }
+  .resolve_photo_2{
+    margin: 200px auto auto 150px;
+  }
+  .resolve_2_back{
+    margin: -20px 390px auto auto;
+  }
+  
+ 
+}
+
+
+

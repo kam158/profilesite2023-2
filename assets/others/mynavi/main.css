@@ -1,0 +1,194 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*mb*/
+@media(max-width:600px){
+  .main_pad{
+    display: none;
+  }
+  .main_relative_1{
+    margin: -420px auto 365px auto;
+  }
+  .main_relative_2{
+    margin-top: 61px;
+  }
+  /*タイトル*/
+  .title{
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+    width: 300px;
+    margin-top: -30px;
+  }
+  .title div{
+    text-align: center;
+    width: 300px;
+    height: 30.9px;
+  }
+  .title_back img{
+    width: 300px;
+    height: 41.9px;
+  }
+  .tokusyuu{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #5A5959;
+    margin-bottom: 10px;
+  }
+  .tokusyuu span{
+    font-size: 1.6rem;
+    color: #333;
+  }
+
+ 
+  
+  /*メインビジュ*/
+  .main_photo_1_div{
+    text-align: right;
+  }
+  .main_photo_1{
+    width: 304px;
+    height: 234px;
+  }
+  .main_photo_2{
+    width: 302px;
+    height: 211px;
+    margin-top: -110px;
+  }
+}
+ /*pad*/
+@media only screen and (min-width:601px) and (max-width:1240px) {
+  .main_pad{
+    display: block;
+  }
+  .main_relative_1{
+    margin: -510px auto 411px auto;
+  }
+  .main_relative_2{
+    margin-top: 83px;
+  }
+  /*タイトル*/
+  .title{
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+    width: 500px;
+    font-size: 5.0rem;
+    line-height: 7.0rem;
+    margin-top: -89px;
+  }
+  .title_back img{
+    width: 500px;
+    height: 82px;
+  }
+  .tokusyuu{
+    width: 100%;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 1.7rem;
+    color: #5A5959;
+    margin-top: -9px;
+  }
+  .tokusyuu span{
+    font-size: 2.4rem;
+    color: #333;
+  }
+
+ 
+  
+  /*メインビジュ*/
+  .main_photo_1_div{
+    text-align: right;
+    margin-top: -450px;
+  }
+  .main_photo_1{
+    width: 424px;
+    height: 354px;
+  }
+  .main_photo_2{
+    width: 442px;
+    height: 311px;
+    margin-top: -280px;
+  }
+  .main_background_1{
+    width: 510px;
+    margin: auto 18% auto auto;
+    margin-top: -20px;
+  }
+  .main_background_2{
+    width: 600px;
+    margin-top: -530px;
+  }
+}
+
+ 
+/*pc*/
+@media(min-width:1241px){
+  .main_pad{
+    display: none;
+  }
+  .main_relative_1{
+    margin: -750px auto 615px auto;
+  }
+  .main_relative_2{
+    margin-top: 133px;
+  }
+  
+  /*タイトル*/
+  .title{
+    margin-left: 5%;
+    width: 700px;
+  }
+  h1{
+    text-align: center;
+    width: 700px;
+    margin-top: -98px;
+  }
+  .title div{
+    text-align: center;
+    width: 700px;
+    height: 90px;
+  }
+  .title_back img{
+    width: 700px;
+    height: 90px;
+  }
+ 
+  .tokusyuu{
+    width: 760px;
+    margin-left: 3%;
+    text-align: center;
+    font-size: 3.0rem;
+    color: #5A5959;
+  }
+  .tokusyuu span{
+    font-size: 3.5rem;
+    color: #333;
+  }
+ 
+  
+  /*メインビジュ*/
+  .main_photo_1_div{
+    text-align: right;
+  }
+  .main_photo_1{
+    margin: auto 0 auto auto;
+    width: 701px;
+    height: 565px;
+    margin-top: -70px;
+  }
+  .main_photo_2{
+    width: 844px;
+    height: 579px;
+    margin-top: -470px;
+  }
+
+}

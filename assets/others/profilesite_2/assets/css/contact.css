@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(min-width:900px){
+  .contact{
+    background-image: url("../images/contact_background_pc.png") ,url("../images/contact_background_pc.png");
+    background-repeat: no-repeat;
+    background-position: 0 bottom,right 0 top 15px;
+    background-size: 80%;
+    padding-bottom: 250px;
+    margin-bottom: 150px;
+  }
+  .contact h2{
+    font-size: 9.0rem;
+    color: #333;
+    padding-left: 18.055%;
+  }
+  .contact h2 span{
+    font-size: 7.5rem;
+  }
+  .form-wrapper{
+    margin-top: 68px;
+  }
+  .contact label{
+    font-size: 2.45rem;
+    display: block;
+    margin: 25px auto 15px 30px;
+  }
+  .contact_name,.contact_mailaddress{
+    width: 502px;
+    height: 36px;
+    border-radius: 12px;
+    border-width: 0px;
+  }
+  .contact_inquiry{
+    width: 502px;
+    border-radius: 12px;
+    border-width: 0px;
+  }
+  .contact_name,.contact_mailaddress,.contact_inquiry{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    text-indent: 1.0rem;
+  }
+  .box{
+    width: 600px;
+    margin: 0 auto;
+  }
+  .submit{
+    margin: 0 auto;
+    width: 502px;
+    text-align: right;
+    margin-top: 26px;
+  }
+  .submit-btn{
+    border-width: 0px;
+    border-radius: 10px;
+    width: 91.5px;
+    height: 32px;
+    font-size: 20px;
+  }
+  .end-message{
+    display: none;
+    font-size: 3rem;
+    width: 510px;
+    margin: 0 auto;
+  }
+  .false-message{
+    display: none;
+    font-size: 3rem;
+    width: 510px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width:899px){
+  .contact{
+    background-image: url("../images/contact_background_mb.png") ,url("../images/contact_background_mb.png");
+    background-repeat: no-repeat;
+    background-position: 0 bottom,right 0 top 26px;
+    background-size: 86%;
+    padding-bottom: 35px;
+    margin-bottom: 70px;
+  }
+  .contact h2{
+    font-size: 4.0rem;
+    color: #333;
+    padding-left: 10.13333%;
+  }
+  .contact h2 span{
+    font-size: 3.0rem;
+  }
+  .form-wrapper{
+    margin-top: px;
+  }
+  .contact label{
+    font-size: 1.7rem;
+    display: block;
+    margin: 10px auto 6px 0px;
+  }
+  
+  .contact_name,.contact_mailaddress{
+    width: 250px;
+    height: 30px;
+    border-radius: 12px;
+    border-width: 0px;
+  }
+  .contact_inquiry{
+    width: 250px;
+    height: 135.25px;
+    border-radius: 12px;
+    border-width: 0px;
+  }
+  .contact_name,.contact_mailaddress,.contact_inquiry{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-indent: 1.5rem;
+  }
+  .box{
+    width: 255px;
+    margin: 0 auto;
+  }
+  .submit{
+    margin: 0 auto;
+    width: 255px;
+    text-align: right;
+  }
+  .submit-btn{
+    border-width: 0px;
+    border-radius: 10px;
+    width: 63px;
+    height: 23px;
+    font-size: 1.5rem;
+  }
+  .end-message{
+    display: none;
+    font-size: 1.5rem;
+    width: 260px;
+    margin: 0 auto;
+  }
+  .false-message{
+    display: none;
+    font-size: 1.5rem;
+    width: 260px;
+    margin: 0 auto;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
